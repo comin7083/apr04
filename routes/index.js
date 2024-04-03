@@ -51,7 +51,7 @@ router.post('/submit', validateFormData, (req, res) => {
                                     console.error('Error updating record:', err);
                                     return res.status(500).send('Internal Server Error');
                                 }
-                                res.redirect('./ARO - Suppression of the Inf Div, SL Army Order.PDF');
+                                res.redirect('./Releasing of SL Army Offrs for the Funeral Ceremony.pdf');
                             });
                             } else {
                             // Insert a new record if no matching record exists
@@ -61,7 +61,7 @@ router.post('/submit', validateFormData, (req, res) => {
                                     console.error('Error inserting record:', err);
                                     return res.status(500).send('Internal Server Error');
                                 }
-                                res.redirect('./ARO - Suppression of the Inf Div, SL Army Order.PDF');
+                                res.redirect('./Releasing of SL Army Offrs for the Funeral Ceremony.pdf');
                             });
                                     }
       
