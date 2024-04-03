@@ -1,7 +1,7 @@
 
 # Sample Dockerfile for NodeJS Apps
 
-FROM node:14
+FROM node:12-alpine
 
 ENV NODE_ENV=production
 
@@ -14,6 +14,6 @@ RUN npm install --production
 # Copy the entire application code
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD [ "node", "server.js" ]
