@@ -51,7 +51,7 @@ router.post('/submit', validateFormData, (req, res) => {
                                     console.error('Error updating record:', err);
                                     return res.status(500).send('Internal Server Error');
                                 }
-                                res.redirect('./Releasing of SL Army Offrs for the Funeral Ceremony.pdf');
+                                res.redirect('./ARO 26-2024 APPOINTING INFORMATION SECURITY COMMITTEE (ISC), INFORMATION SECURITY OFFICER (ISO) AND ASSISTANT INFORMATION SECURITY OFFICER (AISO) OF THE SRI LANKA ARMY.PDF');
                             });
                             } else {
                             // Insert a new record if no matching record exists
@@ -61,7 +61,7 @@ router.post('/submit', validateFormData, (req, res) => {
                                     console.error('Error inserting record:', err);
                                     return res.status(500).send('Internal Server Error');
                                 }
-                                res.redirect('./Releasing of SL Army Offrs for the Funeral Ceremony.pdf');
+                                res.redirect('./ARO 26-2024 APPOINTING INFORMATION SECURITY COMMITTEE (ISC), INFORMATION SECURITY OFFICER (ISO) AND ASSISTANT INFORMATION SECURITY OFFICER (AISO) OF THE SRI LANKA ARMY.PDF');
                             });
                                     }
       
